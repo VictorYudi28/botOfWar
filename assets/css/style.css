@@ -1,0 +1,49 @@
+:root {
+    --color-site: #CCB67C;
+    --color-black: #000;
+    --color-white: #FFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: var(--color-black);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--color-site) !important;
+}
+
+.logo {
+    max-height: 90px;
+}
+
+.bi-list {
+    color: var(--color-site);
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.carousel {
+    width: 70% !important;
+    margin: 0 auto !important;
+}
+
+.img-sistema-arma {
+    margin-bottom: 30px;
+}
+
+thead tr th {
+    background-color: var(--color-site) !important;
+}
+
+.video-robo{
+    height: 400px !important;
+}
