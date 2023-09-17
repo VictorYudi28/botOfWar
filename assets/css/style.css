@@ -31,6 +31,10 @@ nav {
     border: 0 !important;
 }
 
+.img-robo-apresentacao{
+    height: 500px !important;
+}
+
 .carousel {
     width: 70% !important;
     margin: 0 auto !important;
@@ -46,4 +50,43 @@ thead tr th {
 
 .video-robo{
     height: 400px !important;
+}
+
+.card{
+    max-width: 350px !important;
+    width: 100% !important;
+}
+
+.card img{
+    height: 300px;
+    object-fit: cover !important;
+}
+
+.img-robocup{
+    width: 60% !important;
+}
+
+.accordion-button{
+    background-color: var(--color-site) !important;
+    border-color: var(--color-black) !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+@media(max-width: 768px){
+
+    .carousel{
+        width: 100% !important;
+    }
+    
+    .img-robocup{
+        width: 100% !important;
+    }
+
+    .ratio{
+        width: 100% !important;
+    }
+
 }
