@@ -1,5 +1,6 @@
 :root {
     --color-site: #CCB67C;
+    --color-site-hover: #b19a62;
     --color-black: #000;
     --color-white: #FFF;
 }
@@ -31,7 +32,7 @@ nav {
     border: 0 !important;
 }
 
-.img-robo-apresentacao{
+.img-robo-apresentacao {
     height: 500px !important;
 }
 
@@ -48,44 +49,78 @@ thead tr th {
     background-color: var(--color-site) !important;
 }
 
-.video-robo{
+.video-robo {
     height: 400px !important;
 }
 
-.card{
+.card {
     max-width: 350px !important;
     width: 100% !important;
 }
 
-.card img{
+.card img {
     height: 300px;
     object-fit: cover !important;
 }
 
-.img-robocup{
+.img-robocup {
     width: 60% !important;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: var(--color-site) !important;
     border-color: var(--color-black) !important;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: none;
 }
 
-@media(max-width: 768px){
+textarea {
+    resize: none;
+}
 
-    .carousel{
+.btn{
+    background-color: var(--color-site) !important;
+}
+
+.btn:hover{
+    background-color: var(--color-site-hover) !important;
+}
+
+.container-input input:focus {
+    box-shadow: none !important; 
+    border-color: var(--color-site) !important;
+}
+
+.container-textarea textarea:focus{
+    box-shadow: none !important; 
+    border-color: var(--color-site) !important;
+}
+
+footer{
+    background-color: var(--color-black) !important;
+}
+
+.title-footer{
+    color: var(--color-site) !important;
+}
+
+footer img{
+    max-height: 90px;
+}
+
+@media(max-width: 768px) {
+
+    .carousel {
         width: 100% !important;
     }
-    
-    .img-robocup{
+
+    .img-robocup {
         width: 100% !important;
     }
 
-    .ratio{
+    .ratio {
         width: 100% !important;
     }
 
