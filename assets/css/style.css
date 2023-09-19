@@ -18,6 +18,10 @@ nav {
     color: var(--color-site) !important;
 }
 
+.btn-investidores{
+    color: var(--color-black) !important;
+}
+
 .logo {
     max-height: 90px;
 }
@@ -107,6 +111,10 @@ footer img{
 }
 
 @media(max-width: 768px) {
+
+    .descricao-robo{
+        width: 100% !important;
+    }
 
     .carousel {
         width: 100% !important;

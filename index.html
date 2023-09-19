@@ -19,8 +19,8 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="./assets/images/logo-god-of-robots.png"
-                        alt="logo god of robots" /></a>
+                <a class="navbar-brand" href="/index.html"><img class="logo"
+                        src="./assets/images/logo-god-of-robots.png" alt="logo god of robots" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="bi bi-list"></i>
@@ -49,6 +49,9 @@
                             <a class="nav-link" href="#evento">Robocup e Next</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#tendencia">Tendência</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
@@ -62,7 +65,8 @@
             <section class="section-apresentacao row d-flex justify-content-center align-items-center">
                 <div class="col-md-6 mb-2">
                     <h1>Bot of War</h1>
-                    <p class="w-75">O Robô "Bot of War" é uma máquina de guerra altamente avançada, com um design
+                    <p class="w-75 descricao-robo">O Robô "Bot of War" é uma máquina de guerra altamente avançada, com
+                        um design
                         impressionante e uma variedade de características notáveis, o "Bot of War" representa o auge da
                         tecnologia robótica</p>
                 </div>
@@ -304,20 +308,20 @@
                 a competição também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve
                 recolher sua arma, só assim é considerado o vencedor.</p>
 
-            <div class="d-flex justify-content-center">
+            <figure class="d-flex justify-content-center">
                 <img class="img-fluid text-center img-robocup" src="./assets/images/imagem-robocup.jpg"
                     alt="Imagem o evento Robocup">
-            </div>
+            </figure>
 
             <h1 class="text-center my-3">Next</h1>
             <p class="text-center w-75 ms-auto me-auto mt-5">NEXT é o maior festival da FIAP. O dia em que alunos e
                 alunas lotam a arena e sobem ao palco para dar um verdadeiro show de criatividade, inovação e
                 tecnologia. A edição de 2022 marcou o retorno do NEXT depois de três anos.</p>
 
-            <div class="d-flex justify-content-center">
+            <figure class="d-flex justify-content-center">
                 <img class="img-fluid text-center img-robocup" src="./assets/images/foto-next.jpg"
                     alt="Imagem o evento Next">
-            </div>
+            </figure>
 
             <div class="accordion my-5 w-75 ms-auto me-auto" id="accordionExample">
                 <div class="accordion-item">
@@ -350,13 +354,35 @@
             </div>
         </section>
 
+        <section id="tendencia" class="my-5">
+            <h1 class="text-center">Tendência</h1>
+
+            <figure class="row py-4">
+                <img class="col-md-6" src="./assets/images/vendasrobo.png" alt="Gráfico de vendas de robos">
+                <img class="col-md-6" src="./assets/images/precorobo.png" alt="Gráfico de preços de robos">
+            </figure>
+
+            <p class="text-center w-75 ms-auto me-auto">O número de robôs vendidos aumenta gradualmente ao longo dos
+                anos. Isso indica um potencial crescimento
+                no mercado, já que a demanda por robôs está aumentando.
+            </p>
+
+            <p class="text-center w-75 ms-auto me-auto">O aumento no número de robôs vendidos também pode indicar uma
+                maior aceitação e confiança no uso de robôs
+                em empresas. Isso pode ser impulsionado por avanços tecnológicos, melhorias na eficiência e redução de
+                custos que os robôs podem trazer.
+            </p>
+
+        </section>
+
         <section id="contato" class="my-5">
             <h1 class="text-center">Contato</h1>
 
             <form action="" class="border rounded p-3">
                 <div class="mb-3 container-input">
                     <label for="exampleFormControlInput1" class="form-label">Nome: </label>
-                    <input type="text" class="form-control" name="nome" id="exampleFormControlInput1" placeholder="Ex: Guilherme" required>
+                    <input type="text" class="form-control" name="nome" id="exampleFormControlInput1"
+                        placeholder="Ex: Guilherme" required>
                 </div>
                 <div class="mb-3 container-input">
                     <label for="exampleFormControlInput1" class="form-label">Email: </label>
