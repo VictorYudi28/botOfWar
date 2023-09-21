@@ -44,8 +44,8 @@ nav {
 
 .section-banner {
     height: 100vh;
-    -webkit-background-image: url('../images/roboBanner.jpg');
-    background-image: url('../images/roboBanner.jpg');
+    -webkit-background-image: url('../images/roboBanner.jpg') !important;
+    background-image: url('../images/roboBanner.jpg') !important;
     background-size: cover;
     background-attachment: fixed;
 }
