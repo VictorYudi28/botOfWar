@@ -9,12 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
 nav {
     background-color: var(--color-black);
 }
@@ -42,41 +36,56 @@ nav {
     border: 0 !important;
 }
 
-.section-banner {
-    height: 100vh;
-    background-image: url('../images/roboBanner.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+.carousel {
+    width: 70% !important;
+    margin: 0 auto !important;
 }
 
-.section-banner h1 {
-    font-size: 8vmin;
+.img-sistema-arma {
+    margin-bottom: 30px;
 }
 
-.btn {
+thead tr th {
     background-color: var(--color-site) !important;
-    color: var(--color-black);
 }
 
-.btn:hover {
-    background-color: var(--color-site-hover) !important;
+.video-robo {
+    height: 400px !important;
 }
 
-#quemsomos,
-#ia,
-#tendencia,
-#socio,
-#beneficios {
-    padding-top: 125px !important;
+.card {
+    max-width: 350px !important;
+    width: 100% !important;
 }
 
-#socio h1 , #beneficios h1,#saibamais-robo h1{
-    color: var(--color-site);
-    text-shadow: 1px 1px 3px var(--color-black);
+.card img {
+    height: 300px;
+    object-fit: cover !important;
+}
+
+.img-robocup {
+    width: 60% !important;
+}
+
+.accordion-button {
+    background-color: var(--color-site) !important;
+    border-color: var(--color-black) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
 }
 
 textarea {
     resize: none;
+}
+
+.btn {
+    background-color: var(--color-site) !important;
+}
+
+.btn:hover {
+    background-color: var(--color-site-hover) !important;
 }
 
 .container-input input:focus {
@@ -89,14 +98,6 @@ textarea {
     border-color: var(--color-site) !important;
 }
 
-.shadow{
-    box-shadow: 1px 1px 40px var(--color-site) !important;
-}
-
-.img-robo{
-    height: 400px;
-}
-
 footer {
     background-color: var(--color-black) !important;
 }
@@ -105,18 +106,26 @@ footer {
     color: var(--color-site) !important;
 }
 
+footer img {
+    max-height: 90px;
+}
+
 @media(max-width: 768px) {
 
-    .section-banner {
-        background-position: center;
+    .descricao-robo {
+        width: 100% !important;
     }
 
-    .img-logo-quem-somos {
-        justify-content: center !important;
+    .carousel {
+        width: 100% !important;
     }
 
-    .img-robo{
-        height: auto;
+    .img-robocup {
+        width: 100% !important;
+    }
+
+    .ratio {
+        width: 100% !important;
     }
 
 }
