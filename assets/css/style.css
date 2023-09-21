@@ -44,6 +44,7 @@ nav {
 
 .section-banner {
     height: 100vh;
+    -webkit-background-image: url('../images/roboBanner.jpg');
     background-image: url('../images/roboBanner.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -70,7 +71,9 @@ nav {
     padding-top: 125px !important;
 }
 
-#socio h1 , #beneficios h1,#saibamais-robo h1{
+#socio h1,
+#beneficios h1,
+#saibamais-robo h1 {
     color: var(--color-site);
     text-shadow: 1px 1px 3px var(--color-black);
 }
@@ -89,11 +92,11 @@ textarea {
     border-color: var(--color-site) !important;
 }
 
-.shadow{
+.shadow {
     box-shadow: 1px 1px 40px var(--color-site) !important;
 }
 
-.img-robo{
+.img-robo {
     height: 400px;
 }
 
@@ -115,7 +118,7 @@ footer {
         justify-content: center !important;
     }
 
-    .img-robo{
+    .img-robo {
         height: auto;
     }
 
